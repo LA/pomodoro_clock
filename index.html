@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/706a4e6750.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <!--Start Options-->
+    <div class="controls">
+        <div class="control">
+            <h4>Session Time</h4>
+            <i style="cursor: pointer;" onclick="sessionPlus()" class="fa fa-plus" aria-hidden="true"></i>
+            <h4 id="session-time">30</h4>
+            <i style="cursor: pointer;" onclick="sessionMinus()" class="fa fa-minus" aria-hidden="true"></i>
+        </div>
+        <div class="control">
+            <h4>Break Time</h4>
+            <i style="cursor: pointer;" onclick="breakPlus();" class="fa fa-plus" aria-hidden="true"></i>
+            <h4 id="break-time">5</h4>
+            <i style="cursor: pointer;" onclick="breakMinus();" class="fa fa-minus" aria-hidden="true"></i>
+        </div>
+    </div>
+    <!--End Options-->
+
+    <!--Start Button-->
+    <div onclick="timerPressed()" id="startButton">
+        <h2 id="time">30:00</h2>
+    </div>
+    <!--End Button-->
+</body>
+</html>

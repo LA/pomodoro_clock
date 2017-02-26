@@ -1,0 +1,31 @@
+#startButton {
+    border: 2px solid lightgreen;
+    background-color: lightblue;
+    border-radius: 50%;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    margin: 5% auto;
+    color: white;
+    cursor: pointer;
+}
+
+#time {
+    margin: 38% 0 0 0;
+}
+
+h2 {
+    font-size: 450%;
+}
+
+.control {
+    display: inline-block;
+    color: darkgray;
+    margin: 1% 4%;
+    text-align: center;
+}
+
+.controls {
+    text-align: center;
+    margin: auto;
+}
